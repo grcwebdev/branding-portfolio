@@ -1,0 +1,86 @@
+#portfolio-projects {
+    padding: 100px 15px;
+    .project-image {
+        width: 100%;
+        margin-bottom: 3rem;
+        .img {
+            width: 100%;
+            height: 450px;
+            background-size: cover !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            background-attachment: fixed !important;
+        }
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        font-style: italic;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 2rem 0;
+        text-transform: uppercase;
+    }
+
+    .info {
+        .buttons {
+            padding: 20px 0;
+            a {
+                display: inline-block;
+                text-decoration: none;
+                text-transform: capitalize;
+                padding: 10px 20px;
+                border-radius: 3px;
+                color: #fff;
+                background: #000;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    background: #ff5253;
+                    .fas {
+                        color: #000;
+                    }
+                }
+            }
+            .fas {
+                color: #ff5253;
+                margin-right: 10px;
+            }
+        }
+    }
+    p {
+        color: #929294;
+        font-size: 1.2rem;
+        line-height: 1.7;
+        margin-bottom: 1.8rem;
+    }
+    .technologies {
+        padding: 100px 0;
+        .icons {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap: 20px;
+            align-items: center;
+            justify-items: center;
+            filter: grayscale(100%);
+            .icon {
+                img {
+                    width: 100%;
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+    .project-video {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
